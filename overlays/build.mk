@@ -30,6 +30,7 @@ PRODUCT_PACKAGES += \
 ifeq ($(WITH_GMS),true)
 # System overlays
 PRODUCT_PACKAGES += \
+    CustomPixelLauncherOverlay \
     GoogleAndroidOverlay \
     GoogleSettingsOverlay \
     GoogleTelecommOverlay \
